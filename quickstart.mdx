@@ -1,80 +1,64 @@
 ---
-title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+title: "Quick Start Guide"
+sidebarTitle: "Quick Start Guide"
 ---
 
-## Get started in three steps
+## Get started in five quick steps\!
 
-Get your documentation site running locally and make your first customization.
+<Steps>
+  <Step title="Create an account on vAMSYS" iconType="solid" stepNumber={1} titleSize="p">
+    Register for an account by [clicking here](https://vamsys.io/register/emirates). You will need to enter your full name, an email address and create a unique and secure password. Afterwards, you wil automatically be redirected to our Pilot Dashboard.
+  </Step>
+  <Step title="Choose your hub">
+    After registering an account and joining Emirates Virtual, you will be prompted to choose a hub.
 
-### Step 1: Set up your local environment
+    **If you plan on mainly flying Emirates Passenger operations:**\
+    Choose OMDB / DXB as your hub. All scheduled passenger flights depart/arrive into Dubai International Airport.
 
-<AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
-  </Accordion>
-</AccordionGroup>
+    **If you plan on mainly flying Emirates SkyCargo operations:**\
+    Choose OMDW / DWC as  your hub. All Emirates SkyCargo flights depart/arrive into Al Maktoum International Airport.
 
-### Step 2: Deploy your changes
+    <Note>
+      Choosing your hub is not a permanent decision - you can change it any time in the future\!
+    </Note>
+    <Tip>
+      You can also fly SkyCargo operations from OMDB / DXB, but you might only be able to see data for passenger flights. You can also get 25% of the points you earn on a flight that departs/arrive into OMDW / DWC as bonus points\!
+    </Tip>
+  </Step>
+  <Step title="Link your Navigraph account">
+    When dispatching flights, we use Navigraph's SimBrief to generate flight plans. This includes passenger information, weight information and more.
 
-<AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+    On the Pilot Dashboard, access the "My vAMSYS Account" settings via the User dropdown top right of the page. You may be prompted to enter your password. Then use the sidebar to navigate to "Social, Online & 3rd Party" and connect your Navigraph account.
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+    <Tip>
+      If you pay for a Navigraph subscription, you can view an overview of the taxiways, stands, runways and more directly from your booked flight page\!
+    </Tip>
+  </Step>
+  <Step title="Download our ACARS software">
+    On the left side of the page on the side bar, click on "Resources" and then click on "Pegasus ACARS". Alternatively, you can also [click here](https://vamsys.io/phoenix/pages/acars) to be directed to the same page. Download the version corresponding to your operating system.
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
-  </Accordion>
-</AccordionGroup>
+    <Note>
+      You may also have to install FSUIPC 7 depending on your simulator.
+    </Note>
+  </Step>
+  <Step title="Book a Flight">
+    On the left side of the page on the side bar, click on "Flight Center" and then "Book Flight Map". From here, you will be directed to a globe view with all our destinations from your current location.
 
-### Step 3: Go live
+    Find the airport you want to fly to, click on the icon on the map and a small window will pop up. Here, you can see what all aircraft can fly to this airport, the estimated time and distance.
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
+    Click "Book Flight" and choose which specific flight you want to fly. Afterwards, choose the aircraft type and registration and finally "Create Booking" by pressing the button at the bottom\! You can optionally customize details about your flight before creating your booking.
+  </Step>
+</Steps>
 
-## Next steps
+## Need Help?
 
-Now that you have your docs running, explore these key features:
+If you require any assistance or clarification with getting started, you can contact us here:
 
-<CardGroup cols={2}>
-
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
-</Card>
-
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
-</Card>
-
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
-
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
-</CardGroup>
-
-<Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
-</Note>
+<Columns cols={2}>
+  <Card title="Discord" icon="discord" href="/essentials/markdown">
+    Answer your questions in our Discord Server.
+  </Card>
+  <Card title="Email" icon="envelope" href="/essentials/code">
+    Contact our support team directly.
+  </Card>
+</Columns>
