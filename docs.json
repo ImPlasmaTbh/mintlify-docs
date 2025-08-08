@@ -18,44 +18,37 @@
             "pages": [
               "index",
               "quickstart",
-              "pegasus-setup"
+              "faq"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Resources",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "pegasus-setup",
+              "aircraft-livery-policy"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Pilot Dashboard",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "phoenix/home-page",
+              "phoenix/book-flight",
+              "phoenix/jumpseats",
+              "phoenix/pirep-claims"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Operations",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "operations/pirep-status",
+              "operations/ranks"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "API Reference",
         "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
           {
             "group": "Endpoint examples",
             "pages": [
@@ -107,15 +100,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
