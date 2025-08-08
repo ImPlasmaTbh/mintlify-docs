@@ -4,8 +4,8 @@
   "name": "Emirates Virtual Documentation",
   "colors": {
     "primary": "#FF6A5A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#FF6A5A",
+    "dark": "#FF6A5A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
