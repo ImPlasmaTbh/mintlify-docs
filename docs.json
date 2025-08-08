@@ -51,19 +51,19 @@
         "global": {
             "anchors": [
                 {
-                    "anchor": "Documentation",
-                    "href": "https://mintlify.com/docs",
-                    "icon": "book-open-cover"
+                    "anchor": "Website",
+                    "href": "https://ek-virtual.com",
+                    "icon": "globe"
                 },
                 {
-                    "anchor": "Community",
-                    "href": "https://mintlify.com/community",
-                    "icon": "slack"
+                    "anchor": "Pilot Dashboard",
+                    "href": "https://vamsys.io/login/emirates",
+                    "icon": "plane"
                 },
                 {
-                    "anchor": "Blog",
-                    "href": "https://mintlify.com/blog",
-                    "icon": "newspaper"
+                    "anchor": "Discord",
+                    "href": "https://discord.gg/YqhZ4CHNc8",
+                    "icon": "discord"
                 }
             ]
         }
@@ -87,10 +87,5 @@
         ]
     },
     "footer": {
-        "socials": {
-            "x": "https://x.com/mintlify",
-            "github": "https://github.com/mintlify",
-            "linkedin": "https://linkedin.com/company/mintlify"
-        }
     }
 }
