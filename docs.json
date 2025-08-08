@@ -69,8 +69,8 @@
         }
     },
     "logo": {
-        "light": "/logo/eklogosite.png",
-        "dark": "/logo/eklogosite.png"
+    "light": "/favicon.svg",
+    "dark": "/favicon.svg"
     },
     "navbar": {
         "links": [
