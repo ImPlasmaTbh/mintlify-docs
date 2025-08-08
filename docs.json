@@ -1,107 +1,96 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Emirates Virtual Documentation",
-  "colors": {
-    "primary": "#FF6A5A",
-    "light": "#FF6A5A",
-    "dark": "#FF6A5A"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "faq"
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Emirates Virtual Documentation",
+    "colors": {
+        "primary": "#FF6A5A",
+        "light": "#FF6A5A",
+        "dark": "#FF6A5A"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Guides",
+                "groups": [
+                    {
+                        "group": "Getting Started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "faq"
+                        ]
+                    },
+                    {
+                        "group": "Resources",
+                        "pages": [
+                            "pegasus-setup",
+                            "aircraft-livery-policy"
+                        ]
+                    },
+                    {
+                        "group": "Pilot Dashboard",
+                        "pages": [
+                            "phoenix/home-page",
+                            "phoenix/book-flight",
+                            "phoenix/jumpseats",
+                            "phoenix/pirep-claims"
+                        ]
+                    },
+                    {
+                        "group": "Operations",
+                        "pages": [
+                            "operations/pirep-status",
+                            "operations/pirep-scoring",
+                            "operations/ranks"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Documentation",
+                    "href": "https://mintlify.com/docs",
+                    "icon": "book-open-cover"
+                },
+                {
+                    "anchor": "Community",
+                    "href": "https://mintlify.com/community",
+                    "icon": "slack"
+                },
+                {
+                    "anchor": "Blog",
+                    "href": "https://mintlify.com/blog",
+                    "icon": "newspaper"
+                }
             ]
-          },
-          {
-            "group": "Resources",
-            "pages": [
-              "pegasus-setup",
-              "aircraft-livery-policy"
-            ]
-          },
-          {
-            "group": "Pilot Dashboard",
-            "pages": [
-              "phoenix/home-page",
-              "phoenix/book-flight",
-              "phoenix/jumpseats",
-              "phoenix/pirep-claims"
-            ]
-          },
-          {
-            "group": "Operations",
-            "pages": [
-              "operations/pirep-status",
-              "operations/pirep-scoring",
-              "operations/ranks"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/eklogosite.png",
+        "dark": "/logo/eklogosite.png"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:support@ek-virtual.com"
+            }
+        ]
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
