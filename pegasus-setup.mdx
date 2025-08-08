@@ -1,0 +1,137 @@
+---
+title: "Pegasus ACARS Software"
+description: "Download and install our flight tracking software and enhance your flying experience."
+---
+
+For your flights to be counted as an Emirates Virtual flight, you need to download and install our tracking software. In addition to tracking your flight, this lets us score your flight and play custom announcements for every stage of flight\!
+
+## Download Pegasus
+
+<Card title="Pegasus ACARS" icon="location-dot" horizontal="false" href="https://vamsys.io/phoenix/pages/acars">
+  Flight tracking software that records your flights and sends them to our servers.
+</Card>
+
+## System Requirements
+
+<Tabs>
+  <Tab title="Windows">
+    - **Operation System**: 64-bit Windows 10 or later
+    - **Additional Requirements**: The correct version of FSUIPC is required for your simulator. For example, FSUIPC 7 is required for MSFS 2020/2024. FSUIPC is **not** required for X-Plane.
+    - **Note**: If you run your simulator with administrator privileges, Pegasus must also be launched with the same administrator privileges.
+  </Tab>
+  <Tab title="macOS">
+    - **Operating System**: macOS 10.15 (Catalina) or later
+    - **Compatability**: Intel and Apple Silicon are both supported.
+
+    <Info>
+      Make sure that X-Plane's "Send network data output" option is ticked and enabled to utilize Pegasus's native connector. This means that you don't have to install any extra software to track your flights.
+    </Info>
+  </Tab>
+</Tabs>
+
+## Installation Instructions
+
+<Steps>
+  <Step title="Install Pegasus ACARS">
+    1. Download the Pegasus Acars installer [here](https://vamsys.io/phoenix/pages/acars).
+    2. Run the installer and follow the on-screen instructions
+    3. Complete the installation and launch Pegasus ACARS.
+    4. Sign into Pegasus with the same credentials used to sign into vAMSYS
+  </Step>
+  <Step title="FSUIPC (MSFS2020 and MSFS2024) / Windows">
+    1. Download the appropriate FSUIPC version for your simulator from [fsuipc.com](fsuipc.com)
+    2. Install FSUIPC by following the provided instructions.
+
+    <Note>
+      FSUIPC is required if you are flying Microsoft Flight Simulator 2020 and 2024. Pegasus will not be able to track your flight if FSUIPC is not installed.
+    </Note>
+    <Warning>
+      FSUIPC is typically only required for Microsoft Flight Simulator 2020 and 2024. X-Plane 11 and 12 support **but do not require** FSUIPC/XPUIPC as they feature a built in connector.
+    </Warning>
+  </Step>
+</Steps>
+
+## Pegasus User Guide
+
+When you launch Pegasus, you may be asked to log in. Log in using your vAMSYS account details. Afterwards, you will be prompted to select a Virtual Airline (VA). Pegasus will only show the VAs you have an active booking for.
+
+<Note>
+  Make sure you have an active booking before using Pegasus. Without an active booking, you cannot use Pegasus at all and will be stuck at an empty VA Selection page.
+</Note>
+
+After you select the VA, you will load into the home page. Here, you can see an overview of how many PIREPs you have filed for Emirates Virtual, how many points you have earned from all your flights, how many total hours flown and your average landing rate. You will also see any alerts posted here.
+
+### Tracking your flight
+
+To start tracking your flight, navigate to the "Booking" page on the side bar located on the left side. Here, you can see information for your booked flight, such as the departure airport, arrival airport, route, and aircraft. Click the green "Start flight" button to start tracking your flight
+
+<Note>
+  Make sure you are loaded into the stand before starting your flight, otherwise Pegasus will not be able to connect to your simulator.
+</Note>
+
+<Warning>
+  **Do not** rewind or replay your flight while Pegasus is running and recording your flight. These functions are not video replays and will negatively effect your PIREP by recording your flight path and/or landing multiple times. Submit your PIREP prior to reviewing your flight.
+</Warning>
+
+During your flight, Pegasus will track the following events:
+
+- Engine start
+- Pushback
+- Takeoff
+- Cruise
+- Descent
+- Landing
+- Engine shutdown
+
+Pegasus will also record your position, altitude, speed and other parameters. These will be periodically sent to the server as position reports every few seconds to track your flight and minimize any performance impact.
+
+### After landing
+
+Once you land, park at the stand, and shut down your engines, Pegasus will show you the time flown, your landing rate, and a flight summary. You can review the flight summary to see timestamps of all key flight events (such as engine start, landing rate, etc).
+
+If you have any additional comments to add for this flight, add it using the white text box.
+
+<Note>
+  Adding any notes will send your PIREP for manual review. This means a human will need to review your flight and accept/reject/invalidate it, therefore it may take longer for it to reflect on your overall statistics. **Only** add comments to explain/report something abnormal, such as going around, diversions, any emergencies.
+</Note>
+
+When you're done, click "Submit Flight Report" - your recorded flight data will automatically be sent for processing and will reflect on the Pilot dashboard.
+
+### Enabling custom announcements/sound packs
+
+Emirates Virtual offers a comprehensive sound pack which features cabin announcements for every stage of flight. These have been meticulously crafted using real recording from real-life Emirates flights.
+
+You can here these announcement at these stages of flight:
+
+- Boarding (Boarding music, cabin crew announcement, captain announcement)
+- Pushback (Emirates Safety and ICE video)
+- Passing 10,000 ft (Emirates dining menu options)
+- Starting descent (Captain announcement)
+- Passing 6,000 ft (Final approach announcement, skywards foundation announcement)
+- After landing and vacating the runway
+- Parking at the stand
+
+You can enable these announcemetns on an **opt-in** basis. This means that you will not hear any cabin announcements unless you specifically enable them.
+
+To enable them: **Open Pegasus -\> Navigate to Settings using the Sidebar -\> Set "Announcements" to Enabled**
+
+<Note>
+  Make sure your Audio output device is to the device you want to hear the announcements from.
+</Note>
+
+<Warning>
+  Make sure that you enable **"Announcements"** and **not "Custom soundpacks"**. These are two different things and can prevent our cabin announcements from playing.
+</Warning>
+
+## Issues
+
+Troubleshooting common issues is coming soon\! In the mean time, if you're encountering any issues with Pegasus, you can contact us for support here:
+
+<Columns cols={2}>
+  <Card title="Discord" icon="discord" href="/essentials/markdown">
+    Answer your questions in our Discord Server.
+  </Card>
+  <Card title="Email" icon="envelope" href="/essentials/code">
+    Contact our support team directly.
+  </Card>
+</Columns>
