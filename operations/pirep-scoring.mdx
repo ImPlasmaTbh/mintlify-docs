@@ -1,0 +1,111 @@
+---
+title: "PIREP Scoring Manual"
+description: "Description of your new file."
+---
+
+Every PIREP filed is processed and usually automatically reviewed to determine how many points and hours should be awarded for a flight.
+
+<AccordionGroup>
+  <Accordion title="Scoring Manual for Dual Engine Aircraft" defaultOpen icon="sparkles">
+    | Condition                             | Details                               | Points   |
+    | ------------------------------------- | ------------------------------------- | -------: |
+    | **Engines**                           |                                       |          |
+    | Engines Started In Sequence           | Time Between Engine Starts ≤ 00:00:05 | 5        |
+    | Engines Shutdown                      |                                       | 10       |
+    | **Engines – Wear and Tear**           |                                       |          |
+    | Engines Cooled Down                   | Time ≥ 00:05:00                       | 15       |
+    | Engines Warmed Up                     | Time ≥ 00:05:00                       | 15       |
+    | **Flaps**                             |                                       |          |
+    | Flaps not retracted before Parking    |                                       | -10      |
+    | Flaps retracted before Parking        |                                       | 5        |
+    | Flaps not set before Takeoff          | Min Level: 1                          | -10      |
+    | Flaps set before Takeoff              | Min Level: 1                          | 5        |
+    | **Flight Length**                     |                                       |          |
+    | Less than 1 hour                      |                                       | 0        |
+    | Between 1 and 2 hours                 |                                       | 20       |
+    | Between 2 and 3 hours                 |                                       | 40       |
+    | Between 3 and 4 hours                 |                                       | 60       |
+    | Between 4 and 5 hours                 |                                       | 80       |
+    | Between 5 and 6 hours                 |                                       | 100      |
+    | Between 6 and 7 hours                 |                                       | 120      |
+    | More than 7 hours                     |                                       | 150      |
+    | Preparation Time                      | Between 00:00:00 and 00:25:00         | 25       |
+    | **Fuel – Landing**                    |                                       |          |
+    | Landing with too little fuel          | Less Than: 2,500 kg                   | -20      |
+    | **Landing – Distance**                |                                       |          |
+    | Landed away from destination          | Points reduced based on % of distance | Variable |
+    | **Landing – Evaluation**              |                                       |          |
+    | Soft                                  | FPM ∞ to 0                            | -10      |
+    | Perfect                               | FPM -1 to -200                        | 50       |
+    | Good                                  | FPM -200 to -275                      | 25       |
+    | Firm                                  | FPM -275 to -350                      | 10       |
+    | Hard                                  | FPM -350 to -500                      | -10      |
+    | Very Hard                             | FPM -500 to ∞                         | -50      |
+    | Deviation                             | -1 point per FPM away from ideal      | Variable |
+    | **Network Connectivity**              |                                       |          |
+    | Connected to network (VATSIM or IVAO) |                                       | 15       |
+    | **Social**                            |                                       |          |
+    | Flown with Friends                    |                                       | 20       |
+    | Shared Cockpit                        |                                       | 50       |
+  </Accordion>
+  <Accordion title="Scoring Manual for Quadruple Engine Aircraft" icon="sparkles">
+    | Condition                               | Details                                         | Points   |
+    | --------------------------------------- | ----------------------------------------------- | -------: |
+    | **Engines**                             |                                                 |          |
+    | Engine Start Sequence                   | Time Between Engine Starts ≤ 00:00:00           | 10       |
+    | Engines Shutdown                        |                                                 | 10       |
+    | **Engines – Taxi**                      |                                                 |          |
+    | Correct Engines Used For Taxi (Arrival) | Engines On: 1,4; Time Between Engines: 00:01:25 | 15       |
+    | **Engines – Wear and Tear**             |                                                 |          |
+    | Engines Cooled Down                     | Time ≥ 00:05:00                                 | 15       |
+    | Engines Warmed Up                       | Time ≥ 00:05:00                                 | 15       |
+    | **Flaps**                               |                                                 |          |
+    | Flaps not retracted before Parking      |                                                 | -10      |
+    | Flaps retracted before Parking          |                                                 | 5        |
+    | Flaps not set before Takeoff            | Min Level: 1                                    | -10      |
+    | Flaps set before Takeoff                | Min Level: 1                                    | 5        |
+    | **Flight Length**                       |                                                 |          |
+    | Less than 1 hour                        |                                                 | 0        |
+    | Between 1 and 2 hours                   |                                                 | 20       |
+    | Between 2 and 3 hours                   |                                                 | 40       |
+    | Between 3 and 4 hours                   |                                                 | 60       |
+    | Between 4 and 5 hours                   |                                                 | 80       |
+    | Between 5 and 6 hours                   |                                                 | 100      |
+    | Between 6 and 7 hours                   |                                                 | 120      |
+    | More than 7 hours                       |                                                 | 150      |
+    | Preparation Time                        | Between 00:00:00 and 00:25:00                   | 25       |
+    | **Fuel – Landing**                      |                                                 |          |
+    | Landing with too little fuel            | Less than 2,500 kg                              | -20      |
+    | **Landing – Distance**                  |                                                 |          |
+    | Landed Away from Destination            | Points reduced based on % of distance completed | Variable |
+    | **Landing – Evaluation**                |                                                 |          |
+    | Soft                                    | ∞ to 0 FPM                                      | -10      |
+    | Perfect                                 | -1 to -200 FPM                                  | 50       |
+    | Good                                    | -200 to -275 FPM                                | 25       |
+    | Firm                                    | -275 to -350 FPM                                | 10       |
+    | Hard                                    | -350 to -500 FPM                                | -10      |
+    | Very Hard                               | -500 to ∞ FPM                                   | -50      |
+    | Deviation Penalty                       | ±1 point per FPM away from ideal (9999)         | Variable |
+    | **Network Connectivity**                |                                                 |          |
+    | Connected to network (VATSIM or IVAO)   |                                                 | 15       |
+    | **Social**                              |                                                 |          |
+    | Flown with Friends                      |                                                 | 20       |
+    | Shared Cockpit                          |                                                 | 50       |
+  </Accordion>
+</AccordionGroup>
+
+### Auto Reject Rules
+
+This table outlines conditions that will send send trigger automatic action or send your PIREP for manual review. This also outlines some common reasons for your PIREP being sent for review.
+
+| Rule Name                             | Condition                                                         | PIREP Action          | Your Intervention |
+| ------------------------------------- | ----------------------------------------------------------------- | --------------------- | ----------------- |
+| Random PIREP Review                   | Applicable to All PIREPs                                          | Sent for Staff Review |                   |
+| Time Acceleration                     | Time Acceleration was Detected                                    | Invalidated           |                   |
+| Mid-air Refueling                     | Fuel Increase Detected Mid-Flight                                 | Invalidated           |                   |
+| Longer than anticipated Flight Length | Flight took longer than average time by more than 01:15:00 or 50% | Sent for Staff Review | Required          |
+| Diversion Detected                    | Landed not at the Destination Airport                             | Sent for Staff Review | Required          |
+| Multiple Landings or Bounce Detected  | Multiple Landings or Bounces Detected                             | Sent for Staff Review | Required          |
+| New Livery/Airframe                   | New Livery Detected                                               | Sent for Staff Review |                   |
+| Negative Points                       | Awarded Points is less than 0                                     | Invalidated           |                   |
+| Mandatory PIREP Review                | Applicable to All Transfer Flights                                | Sent for Staff Review |                   |
